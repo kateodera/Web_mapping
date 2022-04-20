@@ -1,0 +1,41 @@
+.banner-img {
+    width:100%;
+    height: auto;
+    }
+
+.navbar{
+        margin-top: 10px;
+    }
+
+.active {
+        color: red;
+    }
+       
+.title {
+    text-align:center;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom:auto;
+    }
+
+.container{
+    padding-left:5%; 
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.map{
+    height: 700px;
+    margin-top: 10px;
+    padding-left : 5%;
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:burlywood;
+    color:black
+}
