@@ -21,25 +21,8 @@ async function addDistrictsGeoJson(url) {
  })
  polygons.addTo(map)
 }
-addCelltowersGeoJson('geojson/tartu_city_celltowers_edu.geojson')
+addDistrictsGeoJson('geojson/tartu_city_districts_edu.geojson')
 
-// add geoJSON layer
-async function addCelltowersGeoJson(url) {
- const response = await fetch(url)
- const data = await response.json()
- const heatData = data.features.map(heatDataConvert)
-  const heatMap = L.heatLayer(heatData, { radius: 10 })
- heatMap.addTo(map)
-}
-
-// prepare spatial data for Leaflet heat
-function heatDataConvert(feature) {
- return [
- feature.geometry.coordinates[1],
- feature.geometry.coordinates[0],
- feature.properties.area,
- ]
-}
 
 // default map settings
 function defaultMapSettings() {
