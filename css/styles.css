@@ -60,21 +60,6 @@
     background-color: orangered;
   }
        
-.title_w {
-    text-align:center;
-    transform:uppercase; color: dimgray;
-    margin-top: 10px;
-    margin-bottom:auto;
-    font-family: verdana;
-    font-weight: 700;
-    color: grey;
-    text-shadow: 1px 1px 1px #919191,
-        1px 2px 1px #919191,
-        1px 3px 1px #919191,
-        1px 4px 1px #919191,
-    1px 18px 6px rgba(16,16,16,0.4)
-    }
-
 .title {
         text-align:center;
         font-size: 40px;
